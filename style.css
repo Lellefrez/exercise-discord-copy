@@ -86,6 +86,7 @@ header nav > a {
   align-items: center;
   gap: 1rem;
   border-bottom: 1px solid white;
+  margin-top: 24px;
 }
 
 .text-img-section:nth-child(odd) {
@@ -100,6 +101,10 @@ header nav > a {
   padding: 4rem;
   justify-content: center;
   align-items: center;
+}
+.img-body {
+  width: 200%;
+  height: 200%;
 }
 
 #ultimate-section {
