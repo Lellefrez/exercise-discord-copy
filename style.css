@@ -26,9 +26,6 @@ header {
   background-size: cover;
   background-position: center;
 }
-a {
-  text-decoration: none;
-}
 
 body {
   background-color: white;
@@ -52,18 +49,26 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
+#overlay > nav a {
+  text-decoration: none;
+  color: white;
+}
+#overlay > nav a:hover {
+  text-decoration: underline;
+}
 header nav > img {
   width: 200px;
   padding-left: 50px;
-}
-header nav > a {
-  color: white;
 }
 .login {
   border: none;
   border-radius: 40%;
   margin-right: 20px;
   padding: 12px 15px;
+}
+.login:hover {
+  color: blue;
+  border: blue;
 }
 
 #text-header {
@@ -119,4 +124,39 @@ header nav > a {
   margin-top: 40px;
   padding: 16px 32px;
   border-radius: 0 28px;
+}
+
+/*-----------------------------------------------*/
+
+/*FOOTER*/
+
+footer {
+  background-color: black;
+  height: 500px;
+}
+.testa {
+  display: flex;
+  flex-direction: row;
+}
+#end {
+  color: blue;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid blue;
+}
+.elenco-foot > a {
+  color: white;
+  text-decoration: none;
+}
+.ult {
+  padding-top: 20px;
+  border-top: 30px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.reg {
+  border-radius: 40%;
 }
